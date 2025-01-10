@@ -301,7 +301,7 @@ def main():
     while True: # this is the main game loop - it keeps running until broken
         play_game() # runs game once
         while True: # this is the input validation loop
-            play_again = input("Would you like to play again? (yes/no):\n").lower()
+            play_again = input("Would you like to play again? (yes/no): ").lower()
             if play_again in ['yes', 'no']:
                 break
             print("\nPlease enter 'yes' or 'no'.\n")

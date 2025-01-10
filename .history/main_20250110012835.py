@@ -78,7 +78,7 @@ def play_game():
             ''')
 
             print("You charge towards the baboon and it charges towards you, until you meet in the middle and start wrestling.\n"
-                "It\'s a tough fight, but you finally knock out the baboon and continue on your way until you\'ve finally reached\n"
+                "It\'s a tough fight, but you finally knock out  baboon and continue on your way until you\'ve finally reached\n"
                 "the heart of the jungle where a mysterious temple stands.\n")
             
             print('''
@@ -301,13 +301,13 @@ def main():
     while True: # this is the main game loop - it keeps running until broken
         play_game() # runs game once
         while True: # this is the input validation loop
-            play_again = input("Would you like to play again? (yes/no):\n").lower()
+            play_again = input("Would you like to play again? (yes/no): ").lower()
             if play_again in ['yes', 'no']:
                 break
-            print("\nPlease enter 'yes' or 'no'.\n")
+            print("Please enter 'yes' or 'no'.")
         
         if play_again == 'no':
-            print("\nThanks for playing! Goodbye!\n")
+            print("Thanks for playing! Goodbye!")
             break
 
 # this ensures the game only starts if the file is run directly
