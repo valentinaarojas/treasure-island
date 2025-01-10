@@ -84,7 +84,7 @@ def play_game():
             print('''
                         |
                       .' `.
-                   : (     ) :
+                    : (     ) :
         .      |  ( )`._ _.'( )  |      .
         O  .   |`-  -|  .  |-  -'|   .  O
         H  o   |A /\ | ( ) | /\ A|   o  H
@@ -137,7 +137,7 @@ def play_game():
      _  _.=("""")=._  _
     (_'"_.-"`~~`"-._"'_)
      {_"            "_}
-          uh ohhhh
+        uh ohhhh
                 ''')
 
                 print("\nAs you circle the temple looking for another entrance, you accidentally trigger "
@@ -167,7 +167,7 @@ def play_game():
     *******************************************************************************
                 ''')
 
-                print("\nThe rock passes through the barrier and topples over the golden idol. The barrier dissipates!\n"
+                print("\nThe rock passes through the barrier and topple over the golden idol. The barrier dissipates!\n"
                     "You walk into the temple to find mounds of gold and jewels that flood the room.\n"
                     "You've completed your quest! YOU WIN!\n")
 

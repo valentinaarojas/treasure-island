@@ -1,12 +1,12 @@
 def play_game():
 
     print('''
-     _                                     _     _                 _ 
+    _                                     _     _                 _ 
     | |                                   (_)   | |               | |
     | |_ _ __ ___  __ _ ___ _   _ _ __ ___ _ ___| | __ _ _ __   __| |
     | __| '__/ _ \/ _` / __| | | | '__/ _ \ / __| |/ _` | '_ \ / _` |
     | |_| | |  __/ (_| \__ \ |_| | | |  __/ \__ \ | (_| | | | | (_| |
-     \__|_|  \___|\__,_|___/\__,_|_|  \___|_|___/_|\__,_|_| |_|\__,_|
+    \__|_|  \___|\__,_|___/\__,_|_|  \___|_|___/_|\__,_|_| |_|\__,_|
                                                                     
     ''')
     print("Welcome to Treasure Island.\n")
@@ -46,8 +46,8 @@ def play_game():
     if first_choice == "left":
 
         print('''
-             ."`".
-         .-./ _=_ \.-.
+            ."`".
+        .-./ _=_ \.-.
         {  (,(oYo),) }}
         {{ |   "   |} }
         { { \(---)/  }}
@@ -55,7 +55,7 @@ def play_game():
         { { }._:_.{  }}
         {{  } -:- { } }
         {_{ }`===`{  _}
-       ((((\)     (/))))
+        ((((\)     (/))))
         ''')
 
         print("\nWise choice. As you continue on your journey, you stumble upon a rabid baboon staring you\n"
@@ -83,8 +83,8 @@ def play_game():
             
             print('''
                         |
-                      .' `.
-                   : (     ) :
+                    .' `.
+                    : (     ) :
         .      |  ( )`._ _.'( )  |      .
         O  .   |`-  -|  .  |-  -'|   .  O
         H  o   |A /\ | ( ) | /\ A|   o  H
@@ -92,8 +92,8 @@ def play_game():
         .H__T___|_|___|_|_|_|___|_|___T__H.
         |_________________________________|
                     /       \  
-                   /         \ 
-                  /           \ ''')
+                    /         \ 
+                /           \ ''')
 
             print("\nIts ancient stone walls are covered in thick vines and strange glowing symbols that pulse with an otherworldly blue light.\n"
                 "The massive doorway seems to beckon you forward, but as you approach, you notice something odd - there's no door, just a\n" 
@@ -129,15 +129,15 @@ def play_game():
             elif third_choice == "look":
 
                 print('''
-         _.--""--._
+        _.--""--._
         /  _    _  \ 
-     _  ( (_\  /_) )  _
+    _  ( (_\  /_) )  _
     { \._\   /\   /_./ }
     /_"=-.}______{.-="_\ 
-     _  _.=("""")=._  _
+    _  _.=("""")=._  _
     (_'"_.-"`~~`"-._"'_)
-     {_"            "_}
-          uh ohhhh
+    {_"            "_}
+        uh ohhhh
                 ''')
 
                 print("\nAs you circle the temple looking for another entrance, you accidentally trigger "
@@ -167,7 +167,7 @@ def play_game():
     *******************************************************************************
                 ''')
 
-                print("\nThe rock passes through the barrier and topples over the golden idol. The barrier dissipates!\n"
+                print("\nThe rock passes through the barrier and topple over the golden idol. The barrier dissipates!\n"
                     "You walk into the temple to find mounds of gold and jewels that flood the room.\n"
                     "You've completed your quest! YOU WIN!\n")
 
@@ -300,7 +300,7 @@ def play_game():
 def main():
     while True: # this is the main game loop - it keeps running until broken
         play_game() # runs game once
-        while True: # this is the input validation loop
+        while True:
             play_again = input("Would you like to play again? (yes/no): ").lower()
             if play_again in ['yes', 'no']:
                 break
@@ -310,6 +310,5 @@ def main():
             print("Thanks for playing! Goodbye!")
             break
 
-# this ensures the game only starts if the file is run directly
 if __name__ == "__main__":
     main()
