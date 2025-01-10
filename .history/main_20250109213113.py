@@ -102,7 +102,6 @@ if firstChoice == "left":
         thirdChoice = input("\nWalk, look, or throw?\n\n").lower()
 
         if thirdChoice == "walk":
-            
             print('''          
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢤⣶⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⡾⠿⢿⡀⠀⠀⠀⠀⣠⣶⣿⣷⠀⠀⠀⠀
@@ -124,7 +123,6 @@ if firstChoice == "left":
             print("\nYou bravely step into the shimmering barrier, but instantly feel your body being "
                   "ripped apart by the ancient magic. Game over.\n")
             exit()
-
         elif thirdChoice == "look":
 
             print('''
@@ -142,7 +140,6 @@ if firstChoice == "left":
             print("\nAs you circle the temple looking for another entrance, you accidentally trigger "
                   "a trap door and fall into a pit of spikes. Game over.\n")
             exit()
-
         elif thirdChoice == "throw":
             print('''
 *******************************************************************************
